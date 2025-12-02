@@ -1,0 +1,26 @@
+#Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+#Virtual Environments
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Django runtime files
+db.sqlite3
+media/
+staticfiles/
+
+# Dependency / tooling caches
+*.log
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# OS cruft
+.DS_Store
+Thumbs.db
