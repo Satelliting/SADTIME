@@ -2,8 +2,7 @@
 
 ### **Simulated ATT&CK-Driven Threat Intelligence Messaging Environment**
 
-_A fully local, message‑driven threat‑intel pipeline showcasing backend
-architecture, Python depth, and cyber‑domain knowledge._
+_A fully local, message‑driven threat‑intel pipeline._
 
 ---
 
