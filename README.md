@@ -26,46 +26,6 @@ designed as a portfolio-quality demonstration of backend system design.
 
 ---
 
-# 🎯 Purpose of This Project
-
-SADTIME helps demonstrate:
-
-## ✔ Strong Python & backend architecture
-
-- Django REST API design
-- Message-driven programming
-- Processing pipelines
-- Clean models & serializers
-- Error handling, logging, retry logic
-
-## ✔ Experience with AWS concepts (without AWS)
-
-- SNS = topic / event distributor
-- SQS = message queue
-- Consumer = worker service
-
-## ✔ Threat intelligence domain knowledge
-
-- ATT&CK tactics & techniques
-- Indicators of compromise (IOCs)
-- Threat event normalization
-- Basic enrichment logic
-
-## ✔ Ability to build scalable components
-
-- Separation of concerns
-- Extensible pipeline
-- Data-modeling decisions
-- Queue depth & failure observability
-
-## ✔ Familiarity with frontend integration
-
-- React dashboard
-- Fetching backend analytics
-- Displaying threat insights
-
----
-
 # 🔐 Threat Intelligence Scope
 
 SADTIME includes a simplified cyber-threat model:
@@ -166,19 +126,7 @@ A simple UI shows:
 ### **Frontend**
 
 - React
-- Vite or CRA
-- Basic dashboard components
-
-### **Dev Experience**
-
-- Makefile or scripts for:
-  - running the queue
-  - seeding mock ATT&CK data
-  - running Django + React
-- Unit tests for:
-  - pipeline logic
-  - Django models
-  - queue mechanics
+- Vite
 
 ---
 
@@ -246,53 +194,13 @@ A simple UI shows:
 
 # 📈 Dashboard Views
 
-- **Event Stream View**\
+- **Event Stream View**
   Latest threat events from the backend.
 
-- **Indicators Overview**\
+- **Indicators Overview**
   Bar chart for IPs vs Domains vs Hashes.
 
-- **ATT&CK Technique Heatmap**\
+- **ATT&CK Technique Heatmap**
   Count of events mapped to each technique.
-
----
-
-# 🧪 Testing Philosophy
-
-SADTIME includes tests for:
-
-- Queue mechanics
-- Consumer retry logic
-- Django serializer/data validation
-- API correctness
-- Simple integration flows
-
-Focus is on correctness, observability, and resilience --- key concepts
-for a threat-intel platform.
-
----
-
-# 🧩 Future Enhancements
-
-- Swap mock queue with real AWS SNS/SQS
-- Add Celery for async workloads
-- Integrate real MITRE ATT&CK datasets
-- Add user customization (filters, saved searches)
-- Use Redis or PostgreSQL for improved scalability
-
----
-
-# 🏁 Summary
-
-**SADTIME** demonstrates your ability to:
-
-- Build robust backend systems
-- Reason about distributed messaging
-- Work with cyber-threat concepts
-- Integrate backend + frontend + worker processes
-- Communicate architecture clearly
-
-It's the perfect interview-ready project for a role focused on Python,
-backend engineering, threat intelligence, and message-driven design.
 
 ---
